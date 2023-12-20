@@ -5,3 +5,5 @@
 [![Actions Status](https://github.com/remeenemee/python-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/remeenemee/python-project-49/actions)
 
 #Example of work lvl_1 'brain-even'  https://asciinema.org/a/6xx9EbeQJBDrCbgXOqFRl4pYJ
+#Example of work lvl_2 'brain-calc'https://asciinema.org/a/sygDOpZAwMH3BJYoPR1yAalhl
+
