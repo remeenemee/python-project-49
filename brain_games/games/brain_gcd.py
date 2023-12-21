@@ -1,21 +1,22 @@
-# Level №2 - Calculator
+# Level №3 - Greatest common divisor
 
 import random
+import math
 
 from brain_games.cli import welcome_user
+
 name = welcome_user()
 
-def brain_calc():
+
+def brain_gcd():
     print('What is the result of the expression?')
     count = 0
 
     while count < 3:
-        random_num1 = random.randint(1, 10)
-        random_num2 = random.randint(1, 10)
-        rand_ops = ['+', '-', '*']
-        expression = str(random_num1) + random.choice(rand_ops) + str(random_num2)
-        print("Question: " + str(expression))
-        expression = eval(expression)
+        random_num1 = random.randint(1, 30)
+        random_num2 = random.randint(1, 30)
+        expression = math.gcd(random_num1, random_num2)
+        print("Question: " + str(random_num1) + " " + str(random_num2))
         user_input = input("Your answer: ")
 
         if int(user_input) == expression:
@@ -28,12 +29,11 @@ def brain_calc():
 
     if count == 3:
         print('Congratulations, ' + name + '!')
-        
-brain_calc()     
+
+
+brain_gcd()
+
 
 def main():
     if __name__ == '__main__':
         main()
-
-
-
