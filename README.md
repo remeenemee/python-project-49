@@ -7,5 +7,7 @@
 #Example of work lvl_1 'brain-even'  https://asciinema.org/a/6xx9EbeQJBDrCbgXOqFRl4pYJ
 #Example of work lvl_2 'brain-calc' https://asciinema.org/a/sygDOpZAwMH3BJYoPR1yAalhl
 #Example of work lvl_3 'brain-gcd' https://asciinema.org/a/rUS5iRNL23hBarMdfBTV0FAZm
+#Example of work lvl_4 'brain-progression' https://asciinema.org/a/khUeVjkt7EwXoJpSIKhDkGIu3
+
 
 

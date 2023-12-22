@@ -9,7 +9,7 @@ name = welcome_user()
 
 
 def brain_gcd():
-    print('What is the result of the expression?')
+    print('Find the greatest common divisor of given numbers')
     count = 0
 
     while count < 3:
