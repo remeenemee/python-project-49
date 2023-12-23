@@ -8,6 +8,8 @@
 #Example of work lvl_2 'brain-calc' https://asciinema.org/a/sygDOpZAwMH3BJYoPR1yAalhl
 #Example of work lvl_3 'brain-gcd' https://asciinema.org/a/rUS5iRNL23hBarMdfBTV0FAZm
 #Example of work lvl_4 'brain-progression' https://asciinema.org/a/khUeVjkt7EwXoJpSIKhDkGIu3
+#Example of work lvl_5 'brain-prime' https://asciinema.org/a/dQgbDL9G1kwX60gTChnCwQRAl
+
 
 
 

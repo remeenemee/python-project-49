@@ -28,7 +28,8 @@ def brain_progression():
             print('Correct!')
             count += 1
         else:
-            print(f"\'{user_input}\' is wrong answer;(. Correct answer was {result}.")
+            print(f"\'{user_input}\' is wrong answer;(. "
+                  f"Correct answer was {result}.")
             print("Let's try again, " + name)
             break
 

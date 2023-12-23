@@ -24,3 +24,7 @@ O
 brain_games/scripts/__init__.py,3/e/3ec174540c7fbbe9eef625c5705ba1f043500f11
 V
 &brain_games/games/brain_progression.py,d/a/daa0943720a50d7afb99d76f9fdfe8dd37afe926
+P
+ brain_games/games/brain_prime.py,9/c/9c00076d95db7fb9a1c56dce5593740f4a2b5a99
+O
+brain_games/games/brain_even.py,e/c/ec94cd0b0863a8a6830c2d30ba16e85e2d8181fa

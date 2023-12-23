@@ -23,7 +23,8 @@ def brain_gcd():
             print('Correct!')
             count += 1
         else:
-            print(f"\'{user_input}\' is wrong answer;(. Correct answer was {expression}.")
+            print(f"\'{user_input}\' is wrong answer;(. "
+                  f"Correct answer was {expression}.")
             print("Let's try again, " + name)
             break
 
