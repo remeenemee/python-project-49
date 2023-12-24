@@ -2,7 +2,7 @@
 packages = [
   { include = "brain_games" },
 ]
-name = "python-project-49"
+name = "hexlet-code"
 version = "0.1.0"
 description = "Brain-games it`s a game consisting of 5 mini-games related to math"
 authors = ["remeenemee <dk3880930@gmail.com>"]
