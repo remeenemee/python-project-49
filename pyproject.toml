@@ -4,7 +4,7 @@ packages = [
 ]
 name = "hexlet-code"
 version = "0.1.0"
-description = "Brain-games it`s a game consisting of 5 mini-games related to math"
+description = "Brain-games it`s a game consisting of 5 mini-games related to math!"
 authors = ["remeenemee <dk3880930@gmail.com>"]
 readme = "README.md"
 repository = "https://github.com/remeenemee/python-project-49"
