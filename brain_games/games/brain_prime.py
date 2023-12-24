@@ -1,10 +1,10 @@
 # Level №5 - Prime number
 
 import random
-from brain_games.cli import welcome_user
 
+from brain_games.scripts.brain_games import main
 
-name = welcome_user()
+name = str(main())
 
 
 def is_prime(num):
@@ -38,11 +38,3 @@ def brain_prime():
 
     if count == 3:
         print('Congratulations, ' + name + '!')
-
-
-brain_prime()
-
-
-def main():
-    if __name__ == '__main__':
-        main()

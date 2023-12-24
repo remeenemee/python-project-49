@@ -2,8 +2,9 @@
 
 import random
 
-from brain_games.cli import welcome_user
-name = welcome_user()
+from brain_games.scripts.brain_games import main
+
+name = str(main())
 
 
 def brain_progression():
@@ -35,11 +36,3 @@ def brain_progression():
 
     if count == 3:
         print('Congratulations, ' + name + '!')
-
-
-brain_progression()
-
-
-def main():
-    if __name__ == '__main__':
-        main()

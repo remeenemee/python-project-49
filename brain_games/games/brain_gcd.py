@@ -3,9 +3,9 @@
 import random
 import math
 
-from brain_games.cli import welcome_user
+from brain_games.scripts.brain_games import main
 
-name = welcome_user()
+name = str(main())
 
 
 def brain_gcd():
@@ -30,11 +30,3 @@ def brain_gcd():
 
     if count == 3:
         print('Congratulations, ' + name + '!')
-
-
-brain_gcd()
-
-
-def main():
-    if __name__ == '__main__':
-        main()

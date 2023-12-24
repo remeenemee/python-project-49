@@ -26,7 +26,7 @@ share/python-wheels/
 *.egg
 idea/
 .idea/
-idea
+idea/
 .idea
 MANIFEST
 
