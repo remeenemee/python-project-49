@@ -6,7 +6,6 @@ from brain_games.scripts.brain_games import main
 
 name = str(main())
 
-
 def brain_even():
     print('Answer "yes" if the number is even, otherwise answer "no".')
     count = 0
