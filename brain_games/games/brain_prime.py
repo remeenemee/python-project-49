@@ -2,9 +2,10 @@
 
 import random
 
-from brain_games.scripts.brain_games import main
+from brain_games.cli import welcome_user
 
-name = str(main())
+print("Welcome to the Brain Games!")
+name = welcome_user()
 
 
 def is_prime(num):
@@ -33,7 +34,7 @@ def brain_prime():
             correct_answer = 'yes' if is_prime(random_num) else 'no'
             print(f"'{user_input}' is wrong answer;(. "
                   f"Correct answer was {correct_answer}.")
-            print("Let's try again, " + name)
+            print("Let's try again, " + name + '!')
             break
 
     if count == 3:

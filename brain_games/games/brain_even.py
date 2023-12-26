@@ -2,9 +2,11 @@
 
 import random
 
-from brain_games.scripts.brain_games import main
+from brain_games.cli import welcome_user
 
-name = str(main())
+print("Welcome to the Brain Games!")
+name = welcome_user()
+
 
 def brain_even():
     print('Answer "yes" if the number is even, otherwise answer "no".')
@@ -22,8 +24,8 @@ def brain_even():
         else:
             print(f"\'{user_input}\' is wrong answer;(. Correct answer was "
                   f"{'yes' if random_num % 2 == 0 else 'no'}.")
-            print("Let's try again, " + name)
+            print("Let's try again, " + str(name) + '!')
             break
 
     if count == 3:
-        print('Congratulations, ' + name + '!')
+        print('Congratulations, ' + str(name) + '!')
