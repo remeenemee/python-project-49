@@ -13,8 +13,8 @@ def brain_progression():
     count = 0
 
     while count < 3:
-        random_num1 = random.randint(1, 15)
-        random_num2 = random.randint(15, 30)
+        random_num1 = random.randint(1, 100)
+        random_num2 = random_num1 + 20
         random_step = random.randint(2, 4)
         if random_num1 > random_num2:
             random_num1, random_num2 = random_num2, random_num1
