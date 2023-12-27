@@ -16,8 +16,6 @@ def brain_progression():
         random_num1 = random.randint(1, 100)
         random_num2 = random_num1 + 20
         random_step = random.randint(2, 4)
-        if random_num1 > random_num2:
-            random_num1, random_num2 = random_num2, random_num1
         list_nums = [*range(random_num1, random_num2, random_step)]
         random_index = random.choice(range(len(list_nums)))
         result = str(list_nums[random_index])
