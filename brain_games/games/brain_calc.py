@@ -17,8 +17,8 @@ def brain_calc():
         random_num1 = random.randint(1, 10)
         random_num2 = random.randint(1, 10)
         rand_ops = ['+', '-', '*']
-        expression = (str(random_num1) + random.choice(rand_ops)
-                      + str(random_num2))
+        expression = (str(random_num1) + " " + random.choice(rand_ops)
+                      + " " + str(random_num2))
         print("Question: " + str(expression))
         expression = eval(expression)
         user_input = input("Your answer: ")
