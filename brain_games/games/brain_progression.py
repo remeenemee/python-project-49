@@ -21,7 +21,7 @@ def brain_progression():
         list_nums = [*range(random_num1, random_num2, random_step)]
         random_index = random.choice(range(len(list_nums)))
         result = str(list_nums[random_index])
-        list_nums[random_index] = '_'
+        list_nums[random_index] = '..'
         list_nums = ' '.join(str(num) for num in list_nums)
         print("Question: " + list_nums)
         user_input = input("Your answer: ")
